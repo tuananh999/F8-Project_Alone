@@ -326,6 +326,9 @@ a {
 .feature .body .desc {
     margin-top: 18px;
     width: 590px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .feature .body .row {
@@ -341,25 +344,266 @@ a {
     font-weight: 600;
 }
 
+.feature .row .info-1 {
+    margin-right: 209px;
+}
+
+
 .feature .info .desc {
-    display: flex;
     margin-top: 16px;
-    color: #9DA6A5;
+    font-weight: 400;
+    line-height: 1.68;
+    max-width: 168px;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.68;
 }
 
-.feature .row .info-1 {
-    width: 168px;
+.feature .row .info-2 {
+    margin-right: 200px;
 }
 
-.feature .info-2 {
-    width: 223px;
-    margin-left: 209px;
+.feature .info-2 .desc {
+    max-width: 223px;
 }
 
-.feature .info-3 {
-    width: 224px;
-    margin-left: 200px;
+.feature .info-3 .desc {
+    max-width: 224px;
+}
+
+
+/*----------------- Courses--------------- */
+.courses {
+    margin-top: 130px;
+}
+
+.courses p:first-child {
+    color: #767E7E;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.courses h2 {
+    margin-top: 18px;
+}
+
+.courses .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses .row .desc {
+    margin-top: 18px;
+    width: 525px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.courses .row .view {
+    text-decoration: underline;
+    color: #1EBFC1;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.courses .group-card {
+    display: flex;
+    align-items: center;
+    gap: 47px;
+    margin-top: 79px;
+}
+
+.courses .group-card .image {
+    width: 359px;
+    height: 393px;
+    object-fit: cover;
+    border-radius: 8px;
+    opacity: 0.7;
+    background: #D0EFED;
+}
+
+.courses .group-card .card {
+    position: relative;
+}
+
+.courses .info {
+    position: absolute;
+    bottom: -124px;
+    right: 17px;
+    left: 17px;
+}
+
+.courses .card-1 .info {
+    width: 325px;
+    height: 195px;
+    padding: 18px 0 0 25px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.courses .info h3 {
+    color: #0D1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.courses .info p {
+    line-height: normal;
+}
+
+.courses .info .fee {
+    margin-top: 16px;
+
+}
+
+.courses .info strong {
+    color: #0D1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.courses .info .desc {
+    margin-top: 6px;
+}
+
+.courses .info .box {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    gap: 10px;
+}
+
+.courses .box .point {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #1EBFC1;
+}
+
+/* --------------Stats------------ */
+.stat {
+    margin-top: 265px;
+}
+
+.stat .row {
+    display: flex;
+    gap: 200px;
+    width: 862px;
+    margin: 0 auto 0;
+}
+
+.stat .row strong {
+    color: #0D1111;
+    text-align: center;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.stat .row p {
+    margin-top: 11px;
+    color: #767E7E;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* ------------------Quote------------- */
+.quote {
+    margin-top: 264px;
+}
+
+.quote .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quote .row .quote-text {
+    width: 36%;
+}
+
+.quote .quote-text .image {
+    margin-top: 37px;
+}
+
+.quote .quote-text .desc {
+    margin-top: 27px;
+    color: #5D6564;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+}
+
+.quote .quote-text .author {
+    margin-top: 33px;
+    color: #767E7E;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.quote .quote-text strong {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.quote .arrow {
+    display: flex;
+    align-items: center;
+    margin-top: 52px;
+}
+
+.quote .arrow .arrow-left {
+    margin-right: 30px;
+}
+
+.quote .quote-image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 64%;
+    padding: 107px 0 89px
+}
+
+.quote-image .image-1 {
+    margin-left: 345px;
+}
+
+.quote-image .image-2 {
+    position: absolute;
+    top: 19px;
+    right: 0;
+}
+
+.quote-image .image-3 {
+    position: absolute;
+    top: 0;
+    left: 216px;
+}
+
+.quote-image .image-4 {
+    position: absolute;
+    bottom: 67px;
+    left: 72px;
+}
+
+.quote-image .image-5 {
+    position: absolute;
+    bottom: 0;
+    left: 284px;
+}
+
+.quote-image .image-6 {
+    position: absolute;
+    right: 32px;
+    bottom: 29px;
 }
