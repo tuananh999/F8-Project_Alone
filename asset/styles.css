@@ -57,7 +57,8 @@ a {
     color: #0D1111;
     font-size: 4.2rem;
     font-weight: 700;
-    line-height: 1.33; /* 133.333% */
+    line-height: 1.33;
+    /* 133.333% */
 }
 
 
@@ -264,7 +265,8 @@ a {
 }
 
 
-.hero .group-icon img,span {
+.hero .group-icon img,
+span {
     margin-left: -8px;
 }
 
